@@ -118,6 +118,7 @@ This subsection describes things that make life easier in Augmentoolkit.
 - **Two-model generation for the sake of SPEED:** every single task, except the very last one (multi-turn conversation generation) can be accomplished reliably by a good enough 13b. It is highly recommended that you run all steps until the actual multi-turn conversation generation using a 13b, and then switch to a 70b for the last part. This will require a restart of the notebook to deallocate the VRAM, but don't worry, the easy resume means this should work fine (if you haven't moved any files around).
 - **Validation, validation, validation:** Learning lessons from the original Augmental, consistency with the source text is an extremely high priority here, and this is ensured with multiple layers of LLM-based validation (and at the end, numerous examples of regex-based validation).
 - **GBNF Grammars:** possibly the most under-utilized feature of Llama.cpp sees a lot of love here. Check out any `_grammar.py` file in `./generation_functions` and see for yourself how this notebook ensures consistent output across its many steps!
+- **Mixtral Branch:** There's a branch using the Mixtral prompt template, since Mixtral is viewed by many as the best open-weight model. Personal impression from a small test run: it's really good at question generation (though a bit slower) yet can be prone to repetition at times. Capable of multi-turn conversation generation and decent there too, but it does have some of the same problems as the 70bs. I know this one is sampler-sensitive; I'm open to feedback and suggestions here.
 
 The steps above describe how to run the notebook with default settings. But your use case likely differs from the default. Here's a step-by-step process about how to customize it!
 ### Customization (arranged in order of least-to-most difficult to implement):
@@ -150,6 +151,10 @@ Multi-turn conversations sometimes have impersonation (ie, one character will de
 
 Multi-turn conversations can have the primary character ask if the secondary character needs anything else in a repetitive way. So for instance, the primary character might end with "Do you need anything else?" twice or thrice in a row. I am unsure whether this is a quirk of the model or the notebook, either way it should be easily fixable enough with a prompt (+ a regex that checks the end of statements, so that the prompt isn't called on things that are fine). Also became much less of a problem after switching to a combo of Flatorcamaid + Airo.
 
+Multi-turn conversations may occasionally begin with the primary character stating the answers to one of the questions in their first message. One could probably design a regex to catch this, or use the `has_sequential_chars` function. This is still kinda an issue.
+
+Randomly-selected conversation starters were an adaptation to the model directly quoting (then continuing) the few-shot examples, when Airoboros was used for everything; now that FlatOrcamaid is used for part of it, the model may be less inclined to do this, and it's possible that forcing scenes to begin a certain way is hurting the natural flow of some of these conversations. This should possibly be removed.
+
 Spelling mistakes -- I had to use RoPE to boost the ctx quite high, and I think this is causing the model to (VERY rarely) misspell things. This happens maybe one in a dozen outputs, maybe less. Models with higher ctx, e.g., Mixtral, probably won't suffer from this problem at all.
 
 Numbers -- I've found the model missing or adding zeroes occasionally when spelling out dates. I am 99% certain this is also a RoPE issue.
@@ -170,7 +175,7 @@ Other limitations -- I've listed the major ones, and the ones I've found while g
 
 ## Contributing
 - This is my first-ever repo accepting (and seeking!) contributions. I really think this can make a difference to the community.
-- But due to haphazard development over time, the code in this repo is only minimally cleaned-up. This means that there is no real coding style standard as of yet, even though there should be. Any more-experienced dev who shows up first and wants to enforce a proper coding standard is welcome, so long as it isn't too nitpicky.
+- But due to haphazard development over time, the code in this repo is only minimally cleaned-up. This means that there is no real coding style standard as of yet (all I did was run `black .`), even though there should be. Any more-experienced dev who shows up first and wants to enforce a proper coding style standard is welcome, so long as it isn't too nitpicky.
 - If you make a PR, please try running Augmentoolkit from start to finish on at least 10 paragraphs from a book to make sure that the prompts and pipeline still work. If you lack the compute I can handle this part.
 - If you make an issue, please use the appropriate label (feature request or bug report)
 - If you want to contact me, reach out on GitHub, on Discord (@Heralax, I usually hang out in TheBloke's server), or by [email](mailto:evanpeterarmstrong@gmail.com) (NOTE: I am decently slow at replying to email).
@@ -184,6 +189,7 @@ Other limitations -- I've listed the major ones, and the ones I've found while g
 - Prompting format inconsistency fixes (newlines may vary even within the same prompt)
 - An experimental version using mixtral instruct, which would get around the RoPE issues. Would need to change every prompt to use its format, then test it.
 - Perhaps a version that, in the spirit of lean manufacturing, runs each paragraph through the entire pipeline one at a time (rather than going from one step to the next for all paragraphs) might be good for evaluating how a run is going while there is still time to abort it. May pose a problem if the VRAM memory leak issue is not solved though, as that prohibits the two-model approach.
+- (Inspired by something Mixtral did in a test) have a "provide any context the question needs" step when generating questions. So questions are now Context: [c] Question: [q] Answer: [a] instead of just the last two. It really wants to give context so it should help it out.
 
 ## Contact
 evanpeterarmstrong@gmail.com || @Heralax on Discord
