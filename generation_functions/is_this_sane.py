@@ -32,7 +32,7 @@ Answer: 1) The known shapes and movements of the earth according to these texts 
 
 Remember, your task is to analyze this text to see if it is broken, and if it is, write "Broken". Otherwise, write "Fine."
 
-[/INST]### Response::
+[/INST]### Response:
 ## Analysis:
 Step 1: Evaluate the Logical Structure and Coherence. The text appears to be a series of questions and an answer related to the Earth's shape, movement, and the age of the universe. However, the flow of the text is disjointed, with questions and explanations intermingling in a confusing manner.
 Step 3: Look for obvious repetitions. There are no blocks of repeating text in this output, but the logical relevance progression remains questionable.
@@ -48,7 +48,7 @@ Text to determine if it is broken or not:
 
 Remember, your task is to analyze this text to see if it is broken, and if it is, write "Broken". Otherwise, write "Fine."
 
-[/INST]### Response::
+[/INST]### Response:
 ## Edit plan:
 """
     completion = logic_llm(

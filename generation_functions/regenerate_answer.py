@@ -21,7 +21,7 @@ Reasoning as to why the answer is incorrect: \"\"\"{strip_steps(dissenting_reaso
 
 If there are many questions, just answer the first 2.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Plan for new answer (step-by-step):
 {plan}
 # New answer (comprehensive and complete; do not mention the text):

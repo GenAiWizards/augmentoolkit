@@ -30,7 +30,7 @@ Begin Edit: [the full text, with all mechanical errors fixed]
 
 Add as many steps as you need, then output "End of reasoning" as a final step. Then do the edit.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Edit plan:
 """
     completion = logic_llm(

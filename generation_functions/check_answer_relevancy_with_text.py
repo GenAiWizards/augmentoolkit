@@ -23,7 +23,7 @@ Question (based on text): \"\"\"What are the primary food sources of polar bears
 
 Supposed answer to the question (this is what you are fact-checking): \"\"\"Polar bears primarily eat seals, but they also consume significant amounts of berries and fish. Their efficient digestion system, which has been studied through MRIs, allows them to process a wide variety of foods.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Deep Analysis of the Text:
 #### Content Scope and Detail: The text describes the diet of polar bears, focusing on their primary and secondary food sources.
@@ -56,7 +56,7 @@ Question (based on text): \"\"\"What does the Pythagorean theorem state in the c
 
 Supposed answer to the question (this is what you are fact-checking): \"\"\"The Pythagorean theorem, crucial in geometry, states that in a right-angled triangle, a² + b² = c², where a and b are the perpendicular sides and c is the hypotenuse. Additionally, it is noteworthy that this theorem was utilized in ancient Egypt for land surveying purposes.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Deep Analysis of the Text:
 #### Content Scope and Detail: The text explains the Pythagorean theorem, its formula, and historical background.
@@ -89,7 +89,7 @@ Question (based on text): \"\"\"What methods did Freud use to explore the uncons
 
 Supposed answer to the question (this is what you are fact-checking): \"\"\"Freud used dream analysis as a method to explore the unconscious mind. He also introduced the concept of the Oedipus complex, suggesting that during a specific stage of development, a child experiences unconscious desires.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Deep Analysis of the Text:
 #### Content Scope and Detail: The text discusses Freud's methods for exploring the unconscious mind and key concepts he introduced.
@@ -123,7 +123,7 @@ Question (based on text): \"\"\"What was the importance of the Library of Alexan
 
 Supposed answer to the question (this is what you are fact-checking): \"\"\"The Library of Alexandria was crucial in the ancient world as a center of scholarship and cultural development. It housed a vast collection of works, providing scholars with access to knowledge from various fields. The library's destruction is often attributed to Julius Caesar's fire during the Siege of Alexandria, a claim supported by several historical documents and archaeological findings.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Deep Analysis of the Text:
 #### Content Scope and Detail: The text describes the Library of Alexandria's role, its size, patronage, and the impact of its destruction.
@@ -156,7 +156,7 @@ Question (based on text): \"\"\"What are the main characteristics of Venus's atm
 
 Supposed answer to the question (this is what you are fact-checking): \"\"\"Venus's atmosphere is dense, primarily composed of carbon dioxide, and contains clouds of sulfuric acid, leading to extremely high temperatures. The planet has a unique rotation, taking 243 Earth days to rotate once and rotating in a retrograde direction due to gravitational interactions with Earth and other planets.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Deep Analysis of the Text:
 #### Content Scope and Detail: The text provides specific information on Venus's atmosphere and rotation.
@@ -186,7 +186,7 @@ Question (based on text): \"\"\"{qatuple[0]}\"\"\"
 
 Supposed answer to the question (this is what you are fact-checking): \"\"\"{qatuple[1]}\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process (be careful about extra details, even vague ones):
 """
         try:

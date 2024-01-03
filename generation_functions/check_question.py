@@ -37,7 +37,7 @@ The concept of artificial intelligence (AI) revolves around the creation of mach
 
 Question (based on text): \"\"\"What is the role of neural networks in AI, and how does natural language processing contribute to human-computer interaction?\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 
 ### In-Depth Analysis of the Text:
@@ -64,7 +64,7 @@ The phenomenon of photosynthesis in plants is an essential process for life on E
 
 Question (based on text): \"\"\"Explain exactly why chlorophyll able to absorb sunlight, and why is this important for the Calvin cycle?\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 
 ### In-Depth Analysis of the Text:
@@ -91,7 +91,7 @@ The octopus is an extraordinary creature, renowned for its intelligence and abil
 
 Question (based on text): \"\"\"How do octopuses utilize their color-changing ability in their natural habitat, and what role does their central brain play in this process?\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 
 ### In-Depth Analysis of the Text:
@@ -120,7 +120,7 @@ Question (based on text): \"\"\"{qatuple[0]}\"\"\"
 
 If the question clearly goes off the rails and is incoherent, then it is irrelevant.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process (be careful around "how" and "why" questions):
 """
         try:

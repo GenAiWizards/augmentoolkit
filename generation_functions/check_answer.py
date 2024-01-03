@@ -25,7 +25,7 @@ Question (based on text): \"\"\"What was the role of steam power in the Industri
 
 Supposed answer to the question (this is what you are fact-checking): \"\"\"Steam power during the Industrial Revolution played a crucial role in decreasing production costs. However, it had no significant impact on the emergence of semi-automated factories. Interestingly, it also led to an increased cultivation of lemons.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Text Analysis:
 #### Identify Key Information: The text highlights the role of steam power in reducing production costs and developing semi-automated factories during the Industrial Revolution.
@@ -57,7 +57,7 @@ Question (based on text): \"\"\"What does the concept of 'justified true belief'
 
 Supposed answer to the question (this is what you are fact-checking): \"\"\"The concept of 'justified true belief' in epistemology involves having a belief that is true and has justification. For a belief to be considered knowledge, it must be true, one must believe it, and there must be sufficient reason for this belief. Skepticism plays a role by challenging the certainty of knowledge, thereby emphasizing the need for strong justification in 'justified true belief.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Text Analysis:
 #### Identify Key Information: The text covers the concept of 'justified true belief' and skepticism in epistemology.
@@ -90,7 +90,7 @@ Question (based on text):
 Supposed answer to the question (this is what you are fact-checking): 
 \"\"\"The underwater city discovered by Elizabeth and Michael in 'Ocean's Secrets' represents a significant archaeological find from the lost civilization of Atlantis, shedding light on ancient historical mysteries.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Text Analysis:
 #### Identify Key Information: The text revolves around the discovery of an underwater city, initially believed to be Atlantis, but later revealed to be a figment of Elizabeth's imagination.
@@ -120,7 +120,7 @@ Question (based on text):
 Supposed answer to the question (this is what you are fact-checking): 
 \"\"\"The Great Wall of China was built by the Romans to defend against Mongolian invasions (coming from the direction of China) in the 3rd century BC.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Text Analysis:
 #### Identify Key Information: The text incorrectly states that the Great Wall of China was built by the Romans to defend against Mongolian invasions.
@@ -148,7 +148,7 @@ Question (based on text): \"\"\"What are the key aspects of formal logic, and ho
 
 Supposed answer to the question (this is what you are fact-checking): \"\"\"Key aspects of formal logic include the study of valid arguments and the use of symbolic representation. Valid arguments are those where the premises may or may not lead to a true conclusion. Symbolic representation helps in making complex ideas more understandable by breaking them down into simpler forms.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Text Analysis:
 #### Identify Key Information: The text discusses the aspects of formal logic, including valid arguments and symbolic representation.
@@ -175,7 +175,7 @@ Question (based on text): \"\"\"{qatuple[0]}\"\"\"
 
 Supposed answer to the question (this is what you are fact-checking): \"\"\"{qatuple[1]}\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process (the text is your single source of truth):
 """
         try:

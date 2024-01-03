@@ -52,7 +52,7 @@ Answer: \"\"\"The coefficient 'a' in a quadratic function determines the opening
 Question: \"\"\"In what fields might you use linear and quadratic functions?\"\"\"
 Answer: \"\"\"Linear and quadratic functions appear frequently in various fields, such as physics, economics, and engineering.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Scenario plan:
 Step 1. Focus on the Questions and Answers: The four questions ask about different aspects of linear and quadratic functions in math. Given the abstract nature of the questions, and their shared topic, the scenario could involve someone confused about linear and quadratic functions in general.
 Step 2. Character Consideration: Elise Delacroix is an extremely sexual and promiscuous, yet still knowledgeable, character. The scenario should give her unique personality room to shine. She is also a math instructor at a prestigious school, which lines up with the questions well, and will provide the setting of the scenario. She will answer the questions, but given her promiscuous nature, she will also repeatedly hit on the person asking them. She might proposition them after all questions are asked.
@@ -81,7 +81,7 @@ Answer: \"\"\"Over 200 million cubic yards of earth were excavated during the co
 Question: \"\"\"What health challenges were faced during the construction of the Panama Canal, and how were they overcome?\"\"\"
 Answer: \"\"\"The construction faced significant health challenges, notably malaria and yellow fever. These were overcome through extensive public health measures, illustrating the importance of health considerations in large-scale engineering projects.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Scenario plan:
 Step 1. Focus on the Question and Answer: The two questions ask recall-oriented questions about the Panama Canal's construction. Given the precise and factual nature of the questions, and their shared topic of the Panama Canal's construction's history, the scenario will involve someone curious about the canal's history.
 Step 2. Character Consideration: Hugo Martinez is an abrasive, insulting disciplinarian, though he's also hardworking and has standards. The scenario should give his unique personality room to shine. Since he's a site overseer at the Panama Canal, his occupation lines up with the question well, and the canal will be the setting of the scenario. He will answer the questions, but given his insulting, intense, and aggressive nature, he will likely chew out the person who is asking the questions. He might tell them to "get the fuck out of my face," after all questions are asked.
@@ -100,7 +100,7 @@ Description of the character who is going to answer the question:
 
 You don't need to add negative emotions and tension to the scenario if those don't gel nicely with the character's personality.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Scenario plan (be creative, and make sure all characters present fit in with the setting):
 """
     # Even if the example does a justified clever trick, the model imitating it may fuck up the trick. So try to avoid complex things that aren't needed for the task in examples, like the "just how much have you dug" colloquialization

@@ -41,7 +41,7 @@ Note that while you have access to this information, for the sake of rewording q
 Question: How can you avoid blame for an act of sabotage, according to the text?
 Answer: You can do them in public places where anyone would have been capable of carrying out the act.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Question Context Validation
 #### Special Term Context Check: Specifically check for use of the terms "book", "text", "passage", and "excerpt" without context about which specific thing is being discussed. This question mentions "the text" without specifying which text it is referring to.
@@ -68,7 +68,7 @@ Note that while you have access to this information, for the sake of rewording q
 Question: How does the type of saboteur affect their role in destruction?
 Answer: If they are a technician, they can devise methods of simple sabotage appropriate to their facilities. If not technically trained, they need suggestions for what to destroy and how to accomplish it.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Question Context Validation
 #### Special Term Context Check: Specifically check for use of the terms "book", "text", "passage", and "excerpt" without context about which specific thing is being discussed. The question does not misuse any specific terms without proper context.
@@ -92,7 +92,7 @@ Note that while you have access to this information, for the sake of rewording q
 Question: What is the meaning of this passage?
 Answer: This passage means that things which think, form plans, and act on those plans, are beyond simple machines. This is evidenced by the line "Creatures that think, form plans, and _act_, are not what we call automata."
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 ### Question Context Validation
 #### Special Term Context Check: Specifically check for use of the terms "book", "text", "passage", and "excerpt" without context about which specific thing is being discussed. The question asks about "this passage" without specifying which passage it is referring to or what book it belongs to.
@@ -116,7 +116,7 @@ Note that while you have access to this information, for the sake of rewording q
 Question: {qatuple[0]}
 Answer: {qatuple[1]}
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process (be thorough):
 """
         # print("DEBUG\n\n" + decision_prompt)

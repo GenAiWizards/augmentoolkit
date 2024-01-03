@@ -30,7 +30,7 @@ Step 4. Plan Revised Answer: Based on this reasoning, a revised answer should on
 
 You are to use the above example as a reference, while you plan out a revised version of the answer \"\"\"{qatuple[1]}\"\"\" with regards to the text and reasoning provided earlier.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 """
         try:

@@ -53,7 +53,7 @@ You should aim to make 6 questions (at most), but if the text is too small or in
 
 You will not mention the text explicitly in any questions you think of, since the questions you generate are intended to test people's knowledge of the information — when given the questions, they will not have the text on-hand.
 
-[/INST]### Response:: I will remember to follow the question and answer format given by:
+[/INST]### Response: I will remember to follow the question and answer format given by:
 \"\"\"
 num) question contents.
 Answer: question answer.

@@ -224,7 +224,7 @@ Answer: \"\"\"Linear and quadratic functions appear frequently in various fields
 
 The AI's answer will use all parts of the answers given. Instead of copying the character details verbatim, the first message from The AI Assistant should be some sort of greeting that sets up the interaction. The user will then ask the first question. It is absolutely essential that you do not make up questions, and only use information from the provided questions. The AI will be neutral in its tone throughout the conversation. It may surround its answer with "conversational fluff" (such as acknowledging the user's question). The user may surround its own questions with human-like informalities.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Conversation that answers the provided questions:
 AI Assistant: Hello! I'm here to help with any questions you might have. Feel free to ask away!
 
@@ -246,7 +246,7 @@ Answer: \"\"\"The construction faced significant health challenges, notably mala
 
 The AI's answer will use all parts of the answers given. Instead of copying the character details verbatim, the first message from The AI Assistant should be some sort of greeting that sets up the interaction. The user will then ask the first question. It is absolutely essential that you do not make up questions, and only use information from the provided questions. The AI will be neutral in its tone throughout the conversation. It may surround its answer with "conversational fluff" (such as acknowledging the user's question). The user may surround its own questions with human-like informalities.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Conversation that answers the provided questions:
 AI Assistant: Hello! I'm here to help you with any questions you might have. What's on your mind today?
 User: I was reading about the Panama Canal and got curious, how much earth was excavated during its construction?
@@ -263,7 +263,7 @@ Answer: \"\"\""Lo! I am weary of my wisdom, like the bee that hath gathered too 
 
 The AI's answer will use all parts of the answers given. Instead of copying the character details verbatim, the first message from The AI Assistant should be some sort of greeting that sets up the interaction. The user will then ask the first question. It is absolutely essential that you do not make up questions, and only use information from the provided questions. The AI will be neutral in its tone throughout the conversation. It may surround its answer with "conversational fluff" (such as acknowledging the user's question). The user may surround its own questions with human-like informalities.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Conversation that answers the provided questions:
 AI Assistant: Good day! I'm here to assist with any questions or insights you might seek. Please, feel free to ask anything.
 User: What do people undergoing difficult journeys or possessing wisdom need, in order to make their efforts more bearable?
@@ -276,7 +276,7 @@ AI Assistant: Certainly. Nietzsche once wrote, "Lo! I am weary of my wisdom, lik
 
 The AI's answer will use all parts of the answers given. Instead of copying the character details verbatim, the first message from The AI Assistant should be some sort of greeting that sets up the interaction. The user will then ask the first question. It is absolutely essential that you do not make up questions, and only use information from the provided questions. The AI will be neutral in its tone throughout the conversation. It may surround its answer with "conversational fluff" (such as acknowledging the user's question). The user may surround its own questions with human-like informalities.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Conversation that answers the provided question (be sure that you do not change the questions or answers themselves; {charname} will answer the questions, not ask them; the questions and answers provided should be copied word for word, and surrounded by compelling conversation):
 AI Assistant:"""
     else:
@@ -327,7 +327,7 @@ Answer: \"\"\"Linear and quadratic functions appear frequently in various fields
 
 The primary character's answer will use all parts of the answers given. Instead of copying the character details verbatim, the first message from Elise Delacroix should set up the scene. The second message of the conversation will ask the first question. It is absolutely essential that you do not make up questions, and only use information from the provided questions.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Conversation that answers the provided questions:
 Elise Delacroix: "A visitor? Ah!~ Albert! It's rare for you come to see me in my office, and you're alone, too..." She looks at Albert and grins coyly, "Are you here to ask me something... or are you interested in some 'extracurricular activities'?" Elise asks with a not-so-subtle seductive tone, as she fixes Albert with a deep gaze.
 Albert: "N-No!!!" he stammers, so surprised he nearly drops his math notes. "I-I'm actually here because I've got a few questions about math for you, Elise... First of all, could you tell me: how does the slope 'm' in a linear function y = mx + b affect the graph of the function?"
@@ -375,7 +375,7 @@ Answer: \"\"\"The construction faced significant health challenges, notably mala
 
 The primary character's answer will use all parts of the answers given. Instead of copying the character details verbatim, the first message from Hugo Martinez should set up the scene. The second message of the conversation will ask the first question. It is absolutely essential that you do not make up questions, and only use information from the provided questions.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Conversation that answers the provided questions:
 Hugo Martinez: "Huh? Oh FUCK ME, looks like a worker's got something they wanna say to me," Hugo, seeing Juan approach his table at the mess hall, rolls his eyes exasperatedly and downs half a beer as if to douse his frustration. Instead, it seems to fuel it. "WELL?!" He barks. "If you've got some stupid shit to say to me, Juan, then don't make me fucking wait to hear it, too!"
 Juan: "I was just curious, sir," Juan tiredly says as Hugo's words ring in his ears, "about this really impressive canal we've been maintaining (under your wise leadership). Do you know how much earth was excavated during the Panama Canal?"
@@ -405,7 +405,7 @@ Here's some further information that might help you:
 
 The primary character's answer will use all parts of the answers given. Instead of copying the character details verbatim, the first message from {charname} should set up the scene. The second message of the conversation will ask the first question. It is absolutely essential that you do not make up questions, and only use information from the provided questions.
 
-[/INST]### Response::
+[/INST]### Response:
 ## Conversation that answers the provided question (be sure that you do not change the questions or answers themselves; {charname} will answer the questions, not ask them; the questions and answers provided should be copied word for word, and surrounded by compelling conversation):
 {charname}: "{conv_starter}"""
 

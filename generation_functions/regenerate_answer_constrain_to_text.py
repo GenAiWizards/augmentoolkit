@@ -23,7 +23,7 @@ Allegedly incorrect answer to the question (you must constrain this answer to on
 Reasoning as to why the answer goes off the rails: \"\"\"{strip_steps(dissenting_reasoning)}\"\"\"
 
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning and thought process:
 {plan}
 

@@ -31,7 +31,7 @@ Step 6. End of reasoning.
 
 Please now apply the above method to the provided text and question, and write out your reasoning and thought process.
 
-[/INST]### Response::
+[/INST]### Response:
 ## New question plan:
 """
         completion = logic_llm(

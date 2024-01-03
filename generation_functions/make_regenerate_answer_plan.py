@@ -27,7 +27,7 @@ Step 4. Plan a Corrected Answer: Devise a new answer emphasizing that sunlight i
 
 Based on this example, plan out a revised version of the answer \"\"\"{qatuple[1]}\"\"\" with respect to the text and reasoning provided.
 
-[/INST]### Response::
+[/INST]### Response:
 ## New answer plan:
 """
         completion = logic_llm(

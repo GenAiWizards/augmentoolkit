@@ -101,7 +101,7 @@ Absoluta sententia expositore non indiget.
 Question: \"\"\"What is the old latin legal principle behind 'A digniori fieri debet denominatio et resolutio'?\"\"\"
 Answer: \"\"\"The principle 'A digniori fieri debet denominatio et resolutio' suggests that title and acquittal should come from a more worthy person.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning Steps:
 Step 1. Formulate a plan to understand the meaning of 'A digniori fieri debet denominatio et resolutio' by defining it, then interpreting the definition in the context of law.
 Step 2. Recall that the phrase 'A digniori fieri debet denominatio et resolutio' translates to "Title and acquittal ought to proceed from the more worthy person."
@@ -120,7 +120,7 @@ During the construction of the Panama Canal, a massive engineering feat complete
 Question: \"\"\"How much earth was excavated during the construction of the Panama Canal?\"\"\"
 Answer: \"\"\"Over 200 million cubic yards of earth were excavated during the construction of the Panama Canal, showcasing the scale of this massive engineering project.\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 # Reasoning:
 Step 1. Formulate a plan to answer the question about the amount of earth excavated during the Panama Canal construction.
 Step 2. Recall that "how much earth was excavated" can be decently answered by stating the volume of earth removed.
@@ -138,7 +138,7 @@ Text the question and answer were sourced from ({charname} does not have access 
 Question: \"\"\"{qatuple[0]}\"\"\"
 Answer: \"\"\"{qatuple[1]}\"\"\"
 
-[/INST]### Response::
+[/INST]### Response:
 ## Reasoning (only use as many logical steps as you must in order to solve the problem):
 """
 
